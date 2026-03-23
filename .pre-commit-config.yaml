@@ -16,7 +16,7 @@ repos:
     hooks:
       - id: ruff
         args:
-          - --fix
+          - check --fix
       - id: ruff-format
 
 ci:
